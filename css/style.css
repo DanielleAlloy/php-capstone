@@ -1,0 +1,25 @@
+html, body{
+    width: 100%;
+}
+/*Fixes issues with navbar overlapping content for screens 992px and less */
+@media screen and (max-width: 992px) {
+    body{
+        padding-top: 75px;
+    }
+}
+
+/*Fixes issues with navbar overlapping content for screens 992px and less */
+@media screen and (min-width: 993px) {
+    body{
+        padding-top: 115px;
+    }
+}
+
+.home{
+    padding-top: 25px!important;
+}
+html,
+body,
+.view {
+    height: 100%;
+}
